@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOPE-19</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+    <link rel="shortcut icon" type="image/png" href="cod1.png">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<link rel="icon" type="image/x-icon" href="20200529_120756_0000.png">
+
+    <link rel="stylesheet" type="text/css" href="index.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&family=Montserrat:ital,wght@1,500&family=Teko:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDntXv_clkU9Dor_izWAzJoOn5m4x2rXNU&callback=initMap"type="text/javascript"></script>
+	
+</head>
+<body>
+<!-- ------navbar----- -->
+<nav class="navbar navbar-light navbar-expand-sm">
+		
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#ov"><span class=""></span><b>Overview</b>
+								
+                    </a></li>
+                    <li class="nav-item  "><a class="nav-link" href="#im"><span class=""></span><b>Impacts on Environment</b>
+									
+
+                    </a></li>
+                    <li class="nav-item "><a class="nav-link" href="#hw"><span class=""></span><b>How it works?</b>
+								
+                    </a></li>
+                    <li class="nav-item "><a class="nav-link" href="#fp"><span class=""></span><b>Future plans</b>
+								
+                    </a></li>
+                </ul>   
+                
+            </div>
+            <a href=""><img src="20200529_123110_0000.png" width="50px;"></a>
+            <a class="navbar-brand mr-auto  logo" href="#"><h5><b>HOPE-19</b></h5></a>  
+
+        </div>
+        
+    </nav>
+
+
+
+
+<!-- ------button----- -->
+<button class="button button1 bt1" style="position: absolute;"><a href="#pform" style="text-decoration: none;">Offer Jobs</a></button>
+<button class="button button1 bt2" style="position: absolute;"><a href="#av" style="text-decoration: none;">Available Jobs</a></button>
+
+
+
+
+
+<!-- -----over view------ -->
+<div class="mp" >
+	
+	<div class="row">
+		<img src="pexels-photo-4108266.jpeg">
+		<h1><a href=""><u>HOPE-19</u></a></h1>
+
+		<p>Minimizing Risk <br> Maximizing Productivity</p>
+
+	</div>
+
+</div>
+
+<br>
+<hr>
+<br>
+
+
+
+		
+<!-- -----Map------ -->
+
+	<div class="map" id="ov">
+		<div class="contain">
+			<div class="offset-4 col-sm-6 col-md-6">
+				<h2>An Overview of Covid-19 <img src="2760147.png" width="50px"> compromised Areas</h2>
+
+			</div>
+			<div class="offset-3 col-sm-7 col-md-7">
+				<hr>
+			</div>
+
+			<div class="row col-sm-12">
+				<div class="offset-2 col-md-4 col-sm-4 " style="margin-top: 30px;">
+					<div>
+						<iframe src="https://www.google.com/maps/d/embed?mid=1aHtWaZaVve5nx73gtg9VOdwOEKM9wA9Q" width="800" height="800"></iframe>
+					</div>
+				</div>
+				<div class="offset-md-2 col-md-3 col-sm-6 mt d-none d-lg-block" style="margin-top: 150px;" >
+					<h4 style="font-family: 'Courgette', cursive;" style="color: #34495E;" >Here we tried to track corona virus infected hotspot by using some data,collected 
+					from reliable resources . We compared the number of infection with the population density ,the age ration , the ration of men and women and the size of 
+					that area by using <a href="https://sedac.ciesin.columbia.edu/mapping/popest/covid-19/" target="blank">SEDAC,NASA's </a>data.<br><br>Primarily we are 
+					on Dhaka,Bangladesh but a good news is very soon we are launching a Global version where each and every person  who are in safe areas 
+					can use this platfrom to improve thier conditions than now.</h4>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<br>
+<hr>
+<br>
+
+
+
+
+
+
+<!-- -----form0----- -->
+<div class="prov" id="pform">
+	<div class="container">
+		<div class="offset-4 col-sm-6 col-md-6">
+				<h2>Offer people jobs</h2>
+		</div>
+		<div class="offset-3 col-sm-5 col-md-5">
+			<hr>
+		</div>
+		<br>
+		<div class="row col-sm-12">
+			<div class="col-sm-6 col-md-6" style="margin-top: 30px;">
+					<form method="POST" action="index.php">
+							  <div class="form-row">
+							    <div class="col-md-12 mb-3">
+							      <label for="validationServer01">Full Name</label>
+							      <input type="text" class="form-control"  id="validationServer01" placeholder="First name"  name="FullName" required>
+							      <div class="valid-feedback">
+							        
+							      </div>
+							    </div>
+							    <div class="col-md-12 mb-3">
+							      <label for="validationServer02">Phone number</label>
+							      <input type="text" class="form-control " id="validationServer02" placeholder="Phone number"  name="Phone number" required>
+							      <div class="valid-feedback">
+							        
+							      </div>
+							    </div>
+							    <div class="col-md-12 mb-3">
+							      <label for="validationServerUsername">Email Id</label>
+							      <div class="input-group">
+							        <div class="input-group-prepend">
+							          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+							        </div>
+							        <input type="text" class="form-control " id="validationServerUsername" placeholder="Email Id" name="EmailId" aria-describedby="inputGroupPrepend3" required>
+							        
+							      </div>
+							    </div>
+							  </div>
+							  <div class="form-row">
+							    <div class="col-md-12 mb-3">
+							      <label for="validationServer03">NID/Passport ID/Trade license</label>
+							      <input type="text" class="form-control " id="validationServer03" placeholder="eg.123456789" name="id" required>
+							      
+							    </div>
+							    <div class="col-md-12 mb-3">
+							      <label for="validationServer03">Job description</label>
+							      <input type="text" class="form-control " id="validationServer03" placeholder="eg.Cashier/Waiter/Gardener" name="Jobdescriptio"required>
+							      
+							    </div>
+							    <div class="col-md-12 mb-3">
+							      <label for="validationServer03">Minimum skill required</label>
+							      <input type="text" class="form-control " id="validationServer03" placeholder="eg.Gardening/cleaning" 
+							      name="Minimumskillrequired" required>
+							      
+							    </div>
+							    
+							    <br>
+							    <div class="col-md-6 mb-3">
+							      <label for="validationServer04">City</label>
+							      <input type="text" class="form-control " id="validationServer04" placeholder="City" name="City" required>
+							      <div class="invalid-feedback">
+							        Please provide a valid state.
+							      </div>
+							    </div>
+							    <br>
+							    <div class="col-md-6 mb-3">
+							      <label for="validationServer05">Area</label>
+							      <input type="text" class="form-control " id="validationServer05" placeholder="Area" name="Area" required>
+							      <div class="invalid-feedback">
+							        Please provide a valid zip.
+							      </div>
+							    </div>
+							  </div>
+							  <br>
+							  <div class="form-group">
+							    <div class="form-check">
+							      <input class="form-check-input " type="checkbox" value="" id="invalidCheck3" required>
+							      <label class="form-check-label" for="invalidCheck3">
+							        Agree to terms and conditions<br>
+							       
+							      </label>
+							      
+							    </div>
+							  </div>
+							<button class="btn btn-primary" type="submit" value="submit">Submit form</button>
+				   </form>
+		</div>
+		<div class="col-md-4 col-sm-4">
+			<img width="700px" height="800px" src="pexels-photo-3952232.jpeg">
+		</div>
+			
+		</div>
+		
+	</div>
+
+</div>
+
+
+
+<br>
+<hr>
+<br>
+
+
+
+<!-- -----available jobs----- -->
+<div class="av" id="av" >
+	<div class="container" >
+		<div class="offset-4 col-sm-6 col-md-6"><h1>Available Jobs</h1></div>
+		<div class="offset-3 col-sm-5 col-md-5">
+			<hr>
+		</div>
+		
+		<div class="row">
+				<div class=" col-sm-6">
+					<img src="pexels-photo-3959485.jpeg" width="600px;" height="800px;">
+					
+				</div>
+
+				
+				<div class="of offset-1 col-sm-5" >
+
+
+					<!-- ----template---- -->
+					<div class="tp row"  style="background-color: lightblue;" style="display: flex;">
+
+						<div class="text col-sm-8" style="padding: 10px;">
+							<h2>I need a cashier for my store</h2>
+							<p><b>City: </b>Dhaka <b>Area:</b>Ahmedbag <b>Job code:</b>01 <b>MSkill: </b>Cashier</p>
+
+							<div class="text-cen col-sm-2">
+							  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">
+							    <u>Apply</u></a>
+							</div>
+						</div>
+						
+					</div>
+					<br>
+
+
+					<div class="tp row"  style="background-color: lightblue;" >
+						<div class="text col-sm-10" style="padding: 10px;">
+							<h2>I need a waiter for my hotel</h2>
+							<p><b>City: </b>Dhaka <b>Area:</b>Banasree <b>Job code:</b>02 <b>MSkill: </b>anyone</p>
+
+							<div class=" col-sm-2">
+							  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">
+							    <u>Apply</u></a>
+							</div>
+						</div>
+
+						
+					</div>
+					<br>
+
+
+					<div class="tp row"  style="background-color: lightblue;" >
+						<div class="text col-sm-10" style="padding: 10px;">
+							<h2>I need a home tutor for my child</h2>
+							<p><b>City: </b>Dhaka <b>Area:</b>shahjahanpur <b>Job code:</b>03 <b>MSkill: </b>Fluent in English</p>
+
+							<div class="text-cen col-sm-2">
+							  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">
+							    <u>Apply</u></a>
+							</div>
+						</div>
+
+						
+					</div>
+					<br>
+				</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- -----form1----- -->
+
+<form>
+	<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Apply</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class=" prefix grey-text"></i>
+          
+          <label data-error="wrong" data-success="right" for="form34">Full name</label>
+          <input type="text" class="form-control " id="validationServer03" placeholder="Full name" name="Fullname" required>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class=" prefix grey-text"></i>
+          
+          <label data-error="wrong" data-success="right" for="form34">Phone number</label>
+          <input type="text" class="form-control " id="validationServer03" placeholder="Phone number" name="Phonenumber" required>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class=" prefix grey-text"></i>
+          
+          <label data-error="wrong" data-success="right" for="form34">Email id</label>
+          <input type="text" class="form-control " id="validationServer03" placeholder="Email Id" name="EmailId" required>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class=" prefix grey-text"></i>
+          
+          <label data-error="wrong" data-success="right" for="form34">NID/Passport Id</label>
+          <input type="text" class="form-control " id="validationServer03" placeholder="eg.123456789" name="id" required>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class=" prefix grey-text"></i>
+          
+          <label data-error="wrong" data-success="right" for="form34">City</label>
+          <input type="text" class="form-control " id="validationServer03" placeholder="City" name="city" required>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class=" prefix grey-text"></i>
+          
+          <label data-error="wrong" data-success="right" for="form34">Area</label>
+          <input type="text" class="form-control " id="validationServer03" placeholder="Area" name="id" required>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class=" prefix grey-text"></i>
+          
+          <label data-error="wrong" data-success="right" for="form34">Job code</label>
+          <input type="text" class="form-control " id="validationServer03" placeholder="eg.01" name="id" required>
+        </div>
+
+
+        <div class="form-group">
+							   <div class="form-check">
+							      <input class="form-check-input " type="checkbox" value="" id="invalidCheck3" required>
+							      <label class="form-check-label" for="invalidCheck3">
+							        Agree to terms and conditions<br>
+							       
+							      </label>
+							      
+							    </div>
+							  </div>
+
+        
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique" type="submit">Submit<i class=" ml-1"></i></button>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+</form>
+<br>
+<hr>
+<br>
+
+
+<div class="im" id="im">
+	<div class="container">
+		<div class="offset-4 col-sm-6 col-md-6">
+				<h2>Impacts on Environment</h2>
+		</div>
+		<div class="offset-3 col-sm-6 col-md-6">
+			<hr>
+		</div>
+		<div class="row">
+			<div class="offset-2 col-sm-10">
+				<h4>
+					We are not only involved in solving the economical problem but also trying to impact the environment 
+					with the help of this platform . 
+					<br>
+				</h4>
+			</div>
+
+			<div class="col-sm-8">
+				
+				<br>
+				<h4>Air Quality</h4>
+				<p>
+					Every year, around 7 million deaths occur due to exposure from air pollution and 9 out of 10 people worldwide breathe polluted air, according to the World Health Organization. Scientists, health officials, and air quality managers around the globe are conducting research into this silent but deadly killer. With the information acquired from both ground-based and satellite- based data, decision makers are able to monitor and respond to events. <a target="blank" href="https://earthdata.nasa.gov/learn/articles/feature-articles/health-and-air-quality-articles">Source : NASA EARTHDATA</a><br>
+					In urban areas, harmful automotive emissions are responsible for anywhere between 50 and 90 percent of air pollution. All told, that's quite a lot of air pollution coming from our vehicles.<a href="https://auto.howstuffworks.com/percentage-of-air-pollution-due-to-cars.htm" target="blank">Source</a>
+				</p>
+				<br>
+				<h4>HOPE-19's Impact : </h4>
+				<p>NASA Satellite Data Show 30 Percent Drop In Air Pollution Over Northeast U.S. due to COVID-19.<a href="https://www.nasa.gov/feature/goddard/2020/drop-in-air-pollution-over-northeast" target="blank">Source : NASA . </a>Our motive is to keep this pollution rate and even decrease 
+				this pollution rate by decreasing the usage of automobile. Most of the people using vehicle to go to thier workplaces. We are creating a culture
+				where people can work next to their house (0.5-1 km radius) . This culture offers less vehicle's fuel consumption and it can help to drop the pollution rate upto 50%-60%.</p>
+			</div>
+
+			<br>
+			<div class="col-sm-4">
+				<img src="china_trop_2020056.png"  width="600px;" height="400px;">
+			</div>
+	</div>
+
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-sm-2" >
+			<img  src="1-s2.0-S0048969720325298-ga1_lrg.jpg" width="600px;" height="500px;"> 
+
+		</div>
+
+		<div class="offset-5 col-sm-5">
+			<h4>Water Quality</h4>
+			<p>Vehicle emissions not only cause harmful health impacts for people near them but they also affect the quality of the water near urban areas by adding nitrogen dioxides to the water off the coast which promotes algae growth, starving the fish of oxygen. 
+			<a href="https://pollutionfree.wordpress.com/2013/01/18/vehicle-emissions-and-water-quality/">Source</a><br><- Picture of an Indian lake.</p>
+			<br>
+			<h4>HOPE-19's Impact : </h4>
+			<p>Human life comes to a standstill as many countries shut themselves off from the work due to the novel coronavirus disease pandemic (COVID-19) that hit the world severely in the first quarter of 2020. All types of industries, vehicle movement, and people's activity suddenly halted, perhaps for the first time in modern history.<a href="https://www.sciencedirect.com/science/article/pii/S0048969720325298#f0020" target="blank">Source : ScienceDirect.</a><br>Our main target is to make the water as clean as possible by avoiding human interections . Article above proves that less human interections can decrease the level of water pollution . So , we are offering a culture with less human interection with economical stability. We are expecting the SPM concentration will decreased by 22.5% on average after implementing this platform.</p>
+		</div>
+
+				
+	</div>
+	</div>
+	
+</div>
+
+
+<br>
+<hr>
+<br>
+
+
+<div class="hw" id="hw">
+	<div class="container">
+		<div class="offset-5 col-sm-4">
+			<h2>How it Works</h2>
+		</div>
+		<div class="offset-4 col-sm-4 col-md-4">
+			<hr>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<p>Primarily , it has 2 perspective for the person who is giving job and who is applying for a job. Both of the person 
+				have to be in non-compromised areas or less compromised areas and both of the person must be non covid-19 infected . We are monitoring 
+				this by the areas of the job provider and the job applicant.<b> If and only if everything is safe and both the job provider and the applicant
+				are in a same area and in a radious of 0.5 to 1km , we are providing them a confirmation mail mentioning phone numbers and mail ids of
+				them, they are going to work with.</b>
+				<br><br><br>Our platform is giving a opportunity to revive tadays's unstable economy by providing a way to offer job to people 
+				 with very low risk and giving unemployed people a hope to fight against this pandemic.<b>This platform not only gives people a hope to 
+				 live but 
+				 also offering a better and safer workplace with very less human interections.</b>
+				 <br><br><br>Hope-19 will also impacting environment by decreasing human interections and  less vehicles' fuel consumption .<b>This will directly 
+				change the current distressed situation of  the air and water of our environment .</b></p>
+				<br><br><br>
+				<h1>Win Win situation for all!!!</h1>
+			</div>
+			<div class="col-sm-6">
+				<img src="road-landscape-people-street-2559762.jpg" width="600px;" height="800px;">
+			</div>
+			
+		</div>
+	</div>
+</div>
+<br>
+<hr>
+<br>
+
+<div class="fp" id="fp">
+	<div class="container">
+		<div class="offset-5 col-sm-4">
+			<h2>Future plans</h2>
+		</div>
+		<div class="offset-4 col-sm-4 col-md-4">
+			<hr>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+			<img src="20200529_120756_0000.png">
+		</div>
+		<div class="offset-2 col-sm-5">
+			<h4>
+				Whats coming next?
+			</h4>
+			<p>
+				0.Currently we are monitoring Dhaka, Bangladesh but very soon we are launching a global version.
+				<br><hr>
+				1.Now we are verifying manually but we are going to automate this whole site. <br><hr>
+				2.We are planning to launch HOPE-19 app by October .<br><hr>
+				3.We are trying to enable geolocation on this site to automate location tracking . In the next update we will have it here.<hr>
+			</p>
+			
+		</div>
+		</div>
+	</div>
+</div>
+<br>
+<hr>
+<br>
+
+</body>
+</html>

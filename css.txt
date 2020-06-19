@@ -1,0 +1,60 @@
+
+.mp{
+	width: 191vh;
+	overflow: hidden;
+	height: 800px;
+}
+.mp h1{
+	position: absolute;
+	padding-top: 100px;
+	padding-left: 320px;
+	
+}
+.mp p{
+	position: absolute;
+	padding-top: 150px;
+	padding-left: 320px;
+	color: white;	
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.mp a{
+	color: white;
+	font-family: 'Mitr', sans-serif;
+}
+.mp a:hover{
+	text-decoration: none;
+	color: #283747;
+}
+
+
+/*-------button-------*/
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.bt1{
+	margin-top: 470px;
+	margin-left: 1000px;
+
+}
+.bt2{
+	margin-top: 470px;
+	margin-left: 1200px;
+}
+body{
+	background-color: #E0ECF8;
+}
